@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
         crossorigin="anonymous">
@@ -12,59 +13,79 @@
     <title>3rd Week Task</title>
 </head>
 
-<body>
-    <div class="container">
-        <div class="row my-5 border border-dark p-2 rounded">
-            <div>
-                <h1 class="text-center">Using Grid</h1>
-            </div>
-            <div class="col mx-2 my-2 border border-dark p-4">
+<body class="bg">
+    <h1 class="text-center my-3">Stationary</h1>
+    <div class="container border border-dark rounded my-3">
+        <div class="flex-row d-flex my-2 p-2 bgb">
+            <div class="col mx-2 border border-dark imgbg">
                 <center>
-                    <img src="assets\pencil.jpg" class="d-block" width="200" height="200">
-                    <a href="" class="btn btn-primary">Pencil</a>
-                </center>
-
-            </div>
-            <div class="col mx-2 my-2 border border-dark p-4 ">
-                <center>
-                    <img src="assets\book.png" class="d-block" width="200" height="200">
-                    <a href="" class="btn btn-primary">Book</a>
+                    <a href="pencil.html"><img src="assets\pencil.png" width="200" height="200"></a>
+                    <h5>Pencil</h5>
                 </center>
             </div>
-            <div class="col mx-2 my-2 border border-dark p-4">
+            <div class="col mx-2 border border-dark imgbg">
                 <center>
-                    <img src="assets\pen.png" class="d-block" width="200" height="200">
-                    <a href="" class="btn btn-primary">Pen</a>
+                    <a href="book.html"><img src="assets\book.png" width="200" height="200"></a>
+                    <h5>Book</h5>
+                </center>
+            </div>
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="pen.html"><img src="assets\pen.png" width="200" height="200"></a>
+                    <h5>Pen</h5>
                 </center>
             </div>
         </div>
+        <div class="flex-row d-flex my-2 p-2 bgb">
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="eraser.html"><img src="assets\Eraser.png" width="200" height="200"></a>
+                    <h5>Eraser</h5>
+                </center>
 
-        <div class="row my-5 p-3 border border-dark rounded">
-            <div>
-                <h1 class="text-center mb-3">Using flex-row</h1>
             </div>
-            <div class="d-flex flex-row bd-highlight mb-3 justify-content-center text-center">
-                <div class="p-2 mx-2 bd-highlight border border-dark">
-                    <div>
-                        <img src="assets\srk.png" width="200" height="200"> <br>
-                        <a href=""><button class="btn btn-success mt-3">View Details</button></a>
-                    </div>
-                </div>
-                <div class="p-2 mx-2 bd-highlight border border-dark">
-                    <div>
-                        <img src="assets\ak.png" width="200" height="200"><br>
-                        <a href=""><button class="btn btn-success mt-3">View Details</button></a>
-                    </div>
-                </div>
-                <div class="p-2 mx-2 bd-highlight border border-dark">
-                    <div>
-                        <img src="assets\sk.jpg" width="200" height="200"> <br>
-                        <a href=""><button class="btn btn-success mt-3">View Details</button></a>
-                    </div>
-                </div>
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="sharpener.html"><img src="assets\sharpner.png" width="200" height="200"></a>
+                    <h5>Sharpener</h5>
+                </center>
+            </div>
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="ruler.html"><img src="assets\Ruler.png" width="200" height="200"></a>
+                    <h5>Steel Ruler</h5>
+                </center>
+            </div>
+        </div>
+        <div class="flex-row d-flex my-2 p-2 bgb">
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="pouch.html"><img src="assets\pouch.png" width="200" height="200"></a>
+                    <h5>Pouch</h5>
+                </center>
+
+            </div>
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="scissor.html"><img src="assets\scissor.png" width="200" height="200"></a>
+                    <h5>Scissor</h5>
+                </center>
+            </div>
+            <div class="col mx-2 border border-dark imgbg">
+                <center>
+                    <a href="stappler.html"><img src="assets\stappler.png" width="200" height="200"></a>
+                    <h5>Stappler</h5>
+                </center>
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

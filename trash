@@ -1,0 +1,40 @@
+<div class="row my-5 p-3 border border-dark rounded">
+            <div>
+                <h1 class="text-center mb-3">Using flex-row</h1>
+            </div>
+            <div class="d-flex flex-row bd-highlight mb-3 justify-content-center text-center">
+                <div class="p-2 mx-2 bd-highlight border border-dark">
+                    <div>
+                        <img src="assets\srk.png" width="200" height="200"> <br>
+                        <a href=""><button class="btn btn-success mt-3">View Details</button></a>
+                    </div>
+                </div>
+                <div class="p-2 mx-2 bd-highlight border border-dark">
+                    <div>
+                        <img src="assets\ak.png" width="200" height="200"><br>
+                        <a href=""><button class="btn btn-success mt-3">View Details</button></a>
+                    </div>
+                </div>
+                <div class="p-2 mx-2 bd-highlight border border-dark">
+                    <div>
+                        <img src="assets\sk.jpg" width="200" height="200"> <br>
+                        <a href=""><button class="btn btn-success mt-3">View Details</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Script for products pages-->
+         <script>
+            function data()
+            {
+                const urlParams = new URLSearchParams(location.search);
+                console.log(urlParams)
+                for (const [key, value] of urlParams)
+                 {
+                console.log(`${key}:${value}`);
+                }
+             var p= document.getElementById("1")
+            }
+            data()
+        </script>
